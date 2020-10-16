@@ -81,7 +81,7 @@ public class CustomerMapsActivity extends AppCompatActivity implements OnMapRead
     public static final int REQUEST_PERMISSION_CODE = 99;
     public static final int REQUEST_CHECK_SETTINGS = 1;
 
-    private Button mLogout, mRequest, mSetting ,mReview;
+    private Button mLogout, mRequest, mSetting;
     private LatLng pickupLocation;
 
     private boolean requestStatus = false;
@@ -98,14 +98,6 @@ public class CustomerMapsActivity extends AppCompatActivity implements OnMapRead
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_navigation_drawer);
-        mReview = findViewById(R.id.review);
-        mReview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(CustomerMapsActivity.this , RiderReviewActivity.class);
-                startActivity(intent);
-            }
-        });
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkLocationPermission();

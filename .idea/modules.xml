@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project-uber.iml" filepath="$PROJECT_DIR$/.idea/modules/Project-uber.iml" group="Project-uber" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Project-uber-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Project-uber-app.iml" group="Project-uber/app" />
       <module fileurl="file://$PROJECT_DIR$/RideWithMe.iml" filepath="$PROJECT_DIR$/RideWithMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RideWithMe-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RideWithMe-app.iml" group="RideWithMe/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ridewithme-RideWithMe.iml" filepath="$PROJECT_DIR$/.idea/modules/ridewithme-RideWithMe.iml" group="RideWithMe" />
     </modules>
   </component>
 </project>
