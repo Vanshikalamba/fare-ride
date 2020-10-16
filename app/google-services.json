@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "983362422005",
+    "firebase_url": "https://lets-ride-b01be.firebaseio.com",
+    "project_id": "lets-ride-b01be",
+    "storage_bucket": "lets-ride-b01be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983362422005:android:dc83ff7ca970c1edccf1bc",
+        "android_client_info": {
+          "package_name": "kw.com.ridewithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983362422005-bf3v9slt9ucm0kp3e1scsggeq4raarme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kw.com.ridewithme",
+            "certificate_hash": "5763b77e8f636f83d5471cf9bed22e05571cbd02"
+          }
+        },
+        {
+          "client_id": "983362422005-o6uap220mk0v5isvf3i6gee6h0c0oc7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqDEii1_r0dDlmj07OB0t95qA8J2Iwh_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983362422005-o6uap220mk0v5isvf3i6gee6h0c0oc7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
