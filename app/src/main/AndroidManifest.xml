@@ -27,6 +27,7 @@
         android:roundIcon="@drawable/prof2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RiderReviewActivity"></activity>
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,9 +35,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".RiderLoginActivity" />
         <activity android:name=".CustomerLoginActivity" />
         <!--
